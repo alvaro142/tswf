@@ -1,6 +1,6 @@
 
 let redBtn = document.getElementById("red");
-let blueBtn = document.getElementById("blue");
+let blueBtn = document.getElementById("white");
 let blackBtn = document.getElementById("black");
 let imgchange = document.getElementById("imgchange");
 

@@ -1192,9 +1192,9 @@ width: 100%;
 
 .color-select div {
     background: rgb(6, 147, 207);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: auto;
+    height: 50px;
+    /* border-radius: 50%; */
     margin-right: 10px;
     cursor: pointer;
 }
@@ -1204,8 +1204,9 @@ width: 100%;
     padding: 15px;
 }
 
-.color-select #blue {
-    background: rgb(6, 147, 207);
+.color-select #white {
+    /* background: rgb(6, 147, 207); */
+	background: white;
     padding: 15px;
 }
 
