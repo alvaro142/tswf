@@ -1,5 +1,5 @@
 html{
-	font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;height:100%} 
+	font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;height:100%}
 article,aside,details,figcaption,figure,footer,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}
@@ -50,7 +50,7 @@ h1{margin:.67em 00}
 		.w-button{display:inline-block;padding:9px 15px;background-color:#3898ec;color:#fff;border:0;line-height:inherit;text-decoration:none;cursor:pointer;border-radius:0}
 		input.w-button{-webkit-appearance:button}
 html[data-w-dynpage] [data-w-cloak]{color:transparent!important}
-.w-webflow-badge,.w-webflow-badge 
+.w-webflow-badge,.w-webflow-badge
 *{position:static;left:auto;top:auto;right:auto;bottom:auto;z-index:auto;display:block;visibility:visible;overflow:visible;overflow-x:visible;overflow-y:visible;box-sizing:border-box;width:auto;height:auto;max-height:none;max-width:none;min-height:0;min-width:0;margin:0;padding:0;float:none;clear:none;border:0 transparent;border-radius:0;background:0 0;box-shadow:none;opacity:1;transform:none;transition:none;direction:ltr;font-family:inherit;font-weight:inherit;color:inherit;font-size:inherit;line-height:inherit;font-style:inherit;font-variant:inherit;text-align:inherit;letter-spacing:inherit;text-decoration:inherit;text-indent:0;text-transform:inherit;list-style-type:disc;text-shadow:none;font-smoothing:auto;vertical-align:baseline;cursor:inherit;white-space:inherit;word-break:normal;word-spacing:normal;word-wrap:normal}
 		.w-webflow-badge{position:fixed!important;display:inline-block!important;visibility:visible!important;z-index:2147483647!important;top:auto!important;right:12px!important;bottom:12px!important;left:auto!important;color:#aaadb0!important;background-color:#fff!important;border-radius:3px!important;padding:6px 8px 6px 6px!important;font-size:12px!important;opacity:1!important;line-height:14px!important;text-decoration:none!important;transform:none!important;margin:0!important;width:auto!important;height:auto!important;overflow:visible!important;white-space:nowrap;box-shadow:0 0 0 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.1);cursor:pointer}
 		.w-webflow-badge>img{display:inline-block!important;visibility:visible!important;opacity:1!important;vertical-align:middle!important}
@@ -323,7 +323,7 @@ html[data-w-dynpage] [data-w-cloak]{color:transparent!important}
 			.w-nav-menu{
 				display:none
 			}
-		.w-nav[data-collapse=tiny] 
+		.w-nav[data-collapse=tiny]
 		.w-nav-button,.w-tab-link{
 			display:block
 		}
@@ -444,7 +444,7 @@ html[data-w-dynpage] [data-w-cloak]{color:transparent!important}
 			.button_1.download{display:inline;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
 			.text-block{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:90%;max-width:850px;margin-top:32px;padding:40px 40px 45px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;background-color:hsla(0,0%,100%,.8);box-shadow:1px 1px 26px -3px rgba(0,14,90,.22)}
 			.navbar-2{
-				position:fixed;
+				/* position:fixed; */
 				left:0;
 				top:0;
 				right:0;
@@ -607,9 +607,11 @@ html[data-w-dynpage] [data-w-cloak]{color:transparent!important}
 	.main-section.main-section_lp-hero{padding-top:140px;padding-bottom:45px}
 	.main-section.main-section_lp{padding-top:45px;padding-bottom:45px;background-color:#f5f5f5}
 	.main-section.color-blue-section{background-color:rgba(103,194,255,.13)}
-	.section-headline{margin-bottom:60px;
-		padding-top:40px;
-		text-align:center}
+	.section-headline{
+		margin-bottom:60px;
+		/* padding-top:40px; */
+		text-align:center
+	}
 	.section-headline.no-marg-headline{margin-bottom:0;text-align:center}
 	.section-headline.section-headline_lp{margin-right:auto;margin-bottom:15px;margin-left:auto}
 	.section-headline.lp-video{padding-top:0}
